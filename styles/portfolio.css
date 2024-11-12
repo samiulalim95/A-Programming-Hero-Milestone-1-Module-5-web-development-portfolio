@@ -21,6 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 #letter_a{
     color: rgb(216, 65, 65);
@@ -48,4 +49,18 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture{
+    width: 500px;
 }
