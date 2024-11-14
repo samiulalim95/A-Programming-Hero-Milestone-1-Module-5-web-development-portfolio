@@ -104,11 +104,44 @@ nav a{
 
 
 /* main section styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
-.about{
+.about-container{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 200px;
+    
+}
+.about{
+    border-color: #181818;
+    border-style: solid;
+    background: white;
+    border-width: 1px;
+    padding: 20px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+.info-title{
+    font-weight: normal;
+    color: #757575;
+}
+.info-description{
+    font-weight: bolder;
+    color: #757575;
+}
+
+/* what i do section */
+#what-i-do-description{
+    padding: 30px 150px;
 }
